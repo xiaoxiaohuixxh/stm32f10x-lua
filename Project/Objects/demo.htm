@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\demo.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\demo.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Thu Mar 29 21:09:45 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Thu Mar 29 21:16:36 2018
 <BR><P>
 <H3>Maximum Stack Usage =       2768 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2323,8 +2323,8 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[1d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_error
 <LI><a href="#[276]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lua_checkstack
 </UL>
-<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;generic_reader
-<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
+<BR>[Called By]<UL><LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;generic_reader
 </UL>
 
 <P><STRONG><a name="[222]"></a>luaL_checktype</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, lauxlib.o(i.luaL_checktype))
@@ -2452,6 +2452,7 @@ Global Symbols
 <LI><a href="#[220]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lua_pushcclosure
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaopen_base
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[22c]"></a>luaL_tolstring</STRONG> (Thumb, 296 bytes, Stack size 32 bytes, lauxlib.o(i.luaL_tolstring))
@@ -3497,9 +3498,9 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[24e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaF_newCclosure
 <LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaC_step
 </UL>
-<BR>[Called By]<UL><LI><a href="#[224]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pairsmeta
+<BR>[Called By]<UL><LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
+<LI><a href="#[224]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pairsmeta
 <LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_ipairs
-<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
 </UL>
 
 <P><STRONG><a name="[185]"></a>lua_pushfstring</STRONG> (Thumb, 50 bytes, Stack size 32 bytes, lapi.o(i.lua_pushfstring))
@@ -3565,6 +3566,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[299]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;index2addr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[2a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaopen_base
+<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
 <LI><a href="#[224]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pairsmeta
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_xpcall
 <LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_print
@@ -3574,7 +3576,6 @@ Global Symbols
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;generic_reader
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;finishpcall
 <LI><a href="#[22c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_tolstring
-<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
 <LI><a href="#[272]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_callmeta
 </UL>
 
@@ -3676,7 +3677,8 @@ Global Symbols
 <P><STRONG><a name="[187]"></a>lua_settop</STRONG> (Thumb, 62 bytes, Stack size 12 bytes, lapi.o(i.lua_settop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = lua_settop
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_tonumber
+<BR>[Called By]<UL><LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_tonumber
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_setmetatable
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_rawset
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaB_rawget
@@ -3689,7 +3691,6 @@ Global Symbols
 <LI><a href="#[210]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;load_aux
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;generic_reader
 <LI><a href="#[22c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_tolstring
-<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
 <LI><a href="#[21b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_loadfilex
 <LI><a href="#[21f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_getmetafield
 <LI><a href="#[271]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pushglobalfuncname
@@ -3821,7 +3822,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[58]"></a>main</STRONG> (Thumb, 116 bytes, Stack size 24 bytes, main.o(i.main))
+<P><STRONG><a name="[58]"></a>main</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 1936<LI>Call Chain = main &rArr; luaL_loadstring &rArr; luaL_loadbufferx &rArr; lua_load &rArr; luaD_protectedparser &rArr; luaM_realloc_ &rArr; luaC_fullgc &rArr; luaC_runtilstate &rArr; singlestep &rArr; runafewfinalizers &rArr; GCTM &rArr; luaD_pcall &rArr; luaD_shrinkstack &rArr; luaD_reallocstack &rArr;  luaM_realloc_ (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[2a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usartdemo_main
@@ -3829,6 +3830,7 @@ Global Symbols
 <LI><a href="#[2a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaopen_base
 <LI><a href="#[225]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lua_pcallk
 <LI><a href="#[298]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lua_close
+<LI><a href="#[27c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_setfuncs
 <LI><a href="#[27a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_newstate
 <LI><a href="#[279]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;luaL_loadstring
 <LI><a href="#[205]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leddemo_main
@@ -3963,7 +3965,7 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[71]"></a>lua_delay</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, main.o(i.lua_delay))
+<P><STRONG><a name="[71]"></a>lua_delay</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, main.o(i.lua_delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 600<LI>Call Chain = lua_delay &rArr; lua_tointegerx &rArr; luaV_tointeger &rArr; luaO_str2num &rArr; l_str2d &rArr; l_str2dloc &rArr; strtod &rArr; __strtod_int &rArr; _local_sscanf &rArr; _scanf_real
 </UL>
 <BR>[Calls]<UL><LI><a href="#[274]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lua_tointegerx

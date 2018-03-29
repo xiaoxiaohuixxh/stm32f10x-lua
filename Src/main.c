@@ -29,12 +29,12 @@ static int lua_delay(lua_State *L)
 	num= lua_tointeger(L, 1);
    while(num--)
    {
-      i=12;
+      i=1200;
       while(i--);
    }
 	return 1;
 }
-static const struct luaL_Reg mylib[] =
+static const luaL_Reg mylib[] =
 {
 	{"led_on",lua_led_on},
 	{"led_off",lua_led_off},
@@ -43,7 +43,11 @@ static const struct luaL_Reg mylib[] =
 };
 const char LUA_SCRIPT_GLOBAL[] ="  \
 while 1 do \
- print(\"Hello,I am lua!\\n--this is newline\\n\") \
+ led_on() \
+ delay(5000) \
+ print(\"Hello,I am lua!\\n--this is newline\\r\\n\") \
+ led_off() \
+ delay(1000) \
 end";
 #include "time.h"
 time_t time(time_t * time) {  
