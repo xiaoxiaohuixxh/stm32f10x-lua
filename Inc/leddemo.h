@@ -1,0 +1,1 @@
+int leddemo_main();

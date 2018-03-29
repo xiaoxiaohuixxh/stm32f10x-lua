@@ -1,0 +1,1 @@
+int rtcdemo_main();
