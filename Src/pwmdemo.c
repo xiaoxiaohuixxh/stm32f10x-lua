@@ -1,12 +1,17 @@
 #include "stm32f10x.h"
 int pwmdemo_main()
 {
+		TIM_OCInitTypeDef  TIM_OCInitStructure;
+		uint16_t TimerPeriod;
+		uint16_t Channel1Pulse;
+		TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStruct;
+		GPIO_InitTypeDef GPIO_InitStructure;
 		//config rcc
 		/* TIM1, GPIOA, GPIOB, GPIOE and AFIO clocks enable */
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1 | RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOE|
 													 RCC_APB2Periph_GPIOB |RCC_APB2Periph_AFIO, ENABLE);
 		//init gpio
-		GPIO_InitTypeDef GPIO_InitStructure;
+		
 		/* GPIOE Configuration: Channel 1/1N, 2/2N, 3/3N and 4 as alternate function push-pull */
 		GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;
 		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
@@ -17,9 +22,9 @@ int pwmdemo_main()
 		/* TIM1 Full remapping pins */
 		GPIO_PinRemapConfig(GPIO_PartialRemap_TIM1, ENABLE);//复用，功能选择
 		//init timer
-		uint16_t TimerPeriod = 0;
+		TimerPeriod = 0;
 		TimerPeriod = (SystemCoreClock / 17570 ) - 1;
-		TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStruct;
+		
 		/* Time Base configuration */
 		TIM_TimeBaseInitStruct.TIM_Prescaler = 0;
 		TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;
@@ -29,9 +34,8 @@ int pwmdemo_main()
 		TIM_TimeBaseInit(TIM1,&TIM_TimeBaseInitStruct);
 		
 		//set time pulse
-		TIM_OCInitTypeDef  TIM_OCInitStructure;
 		
-		uint16_t Channel1Pulse = 0;
+	 Channel1Pulse = 0;
 		/* Compute CCR1 value to generate a duty cycle at 50% for channel 1 and 1N */
 		Channel1Pulse = (uint16_t) (((uint32_t) 60 * (TimerPeriod - 1)) / 100);
 

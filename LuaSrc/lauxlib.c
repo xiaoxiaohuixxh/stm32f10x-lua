@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+#include "malloc.h"//ÄÚ´æ¹ÜÀí
 /*
 ** This file uses only the official API of Lua.
 ** Any function declared here could be written as an application function.
@@ -1008,11 +1008,11 @@ LUALIB_API const char *luaL_gsub (lua_State *L, const char *s, const char *p,
 static void *l_alloc (void *ud, void *ptr, size_t osize, size_t nsize) {
   (void)ud; (void)osize;  /* not used */
   if (nsize == 0) {
-    free(ptr);
+    myfree(SRAMIN, ptr);
     return NULL;
   }
   else
-    return realloc(ptr, nsize);
+    return myrealloc(SRAMIN, ptr, nsize);
 }
 
 

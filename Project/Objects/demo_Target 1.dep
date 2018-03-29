@@ -1,6 +1,6 @@
 Dependencies for Project 'demo', Target 'Target 1': (DO NOT MODIFY !)
-F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list c:\users\xiaohui\music\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (..\Src\stm32f10x_it.c)(0x4D99A422)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x5ABCDFC2)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list c:\users\xiaohui\music\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\Src\stm32f10x_it.c)(0x4D99A422)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (..\Inc\stm32f10x_it.h)(0x4D99A422)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -30,7 +30,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Src\main.c)(0x5AB9DB1B)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\Src\main.c)(0x5ABCE593)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -64,7 +64,18 @@ I (..\Inc\rtcdemo.h)(0x5AB0BE33)
 I (..\Inc\usartdemo.h)(0x5AB36303)
 I (..\Inc\pwmdemo.h)(0x5AB88E3B)
 I (..\Inc\lcddemo.h)(0x5AB8E010)
-F (..\Src\leddemo.c)(0x5AB8E31F)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\leddemo.o --omf_browse .\objects\leddemo.crf --depend .\objects\leddemo.d)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Inc\malloc.h)(0x5ABCC8AA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\time.h)(0x5475F300)
+F (..\Src\leddemo.c)(0x5AB8E31F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\leddemo.o --omf_browse .\objects\leddemo.crf --depend .\objects\leddemo.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -93,7 +104,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Src\usartdemo.c)(0x5AB36380)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usartdemo.o --omf_browse .\objects\usartdemo.crf --depend .\objects\usartdemo.d)
+F (..\Src\usartdemo.c)(0x5AB36380)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\usartdemo.o --omf_browse .\objects\usartdemo.crf --depend .\objects\usartdemo.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -122,7 +133,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Src\rtcdemo.c)(0x5AB88D12)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\rtcdemo.o --omf_browse .\objects\rtcdemo.crf --depend .\objects\rtcdemo.d)
+F (..\Src\rtcdemo.c)(0x5AB88D12)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\rtcdemo.o --omf_browse .\objects\rtcdemo.crf --depend .\objects\rtcdemo.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -152,7 +163,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
 I (..\Inc\usartdemo.h)(0x5AB36303)
-F (..\Src\pwmdemo.c)(0x5AB8E303)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\pwmdemo.o --omf_browse .\objects\pwmdemo.crf --depend .\objects\pwmdemo.d)
+F (..\Src\pwmdemo.c)(0x5ABCA7E6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\pwmdemo.o --omf_browse .\objects\pwmdemo.crf --depend .\objects\pwmdemo.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -181,7 +192,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Src\lcddemo.c)(0x5AB9D9B2)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\lcddemo.o --omf_browse .\objects\lcddemo.crf --depend .\objects\lcddemo.d)
+F (..\Src\lcddemo.c)(0x5AB9D9B2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lcddemo.o --omf_browse .\objects\lcddemo.crf --depend .\objects\lcddemo.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -211,6 +222,36 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
 I (..\Drivers\lcd.h)(0x5AB9DB09)
+F (..\Src\malloc.c)(0x5ABCC8AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\malloc.o --omf_browse .\objects\malloc.crf --depend .\objects\malloc.d)
+I (..\Inc\malloc.h)(0x5ABCC8AA)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\Inc\stm32f10x_conf.h)(0x4D99A422)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
 F (..\Inc\stm32f10x_conf.h)(0x4D99A422)()
 F (..\Inc\stm32f10x_it.h)(0x4D99A422)()
 F (..\Inc\leddemo.h)(0x5AAFA250)()
@@ -218,6 +259,7 @@ F (..\Inc\rtcdemo.h)(0x5AB0BE33)()
 F (..\Inc\usartdemo.h)(0x5AB36303)()
 F (..\Inc\pwmdemo.h)(0x5AB88E3B)()
 F (..\Inc\lcddemo.h)(0x5AB8E010)()
+F (..\Inc\malloc.h)(0x5ABCC8AA)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x4D783BB4)()
@@ -241,7 +283,7 @@ F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)()
 F (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)()
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -270,7 +312,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -299,7 +341,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -328,7 +370,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -357,7 +399,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -386,7 +428,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -415,7 +457,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -444,7 +486,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -473,7 +515,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -502,7 +544,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -531,7 +573,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -560,7 +602,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -589,7 +631,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -618,7 +660,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -647,7 +689,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -676,7 +718,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -705,7 +747,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -734,7 +776,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -763,7 +805,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -792,7 +834,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -821,7 +863,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -850,7 +892,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -879,7 +921,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
@@ -908,9 +950,9 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
-F (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+F (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -942,7 +984,7 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
 F (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)()
 F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)()
 F (..\Drivers\lcd.h)(0x5AB9DB09)()
-F (..\Drivers\lcd.c)(0x5AB9DC93)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers-I C:\myfile\À¶ÇÅ±­\myprj\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+F (..\Drivers\lcd.c)(0x5ABCA774)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
 I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
 I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -971,3 +1013,665 @@ I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
+F (..\LuaSrc\lapi.c)(0x56D45542)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lapi.o --omf_browse .\objects\lapi.crf --depend .\objects\lapi.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lapi.h)(0x54FA04DE)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lundump.h)(0x55EF0191)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\lauxlib.c)(0x5ABCCE46)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lauxlib.o --omf_browse .\objects\lauxlib.crf --depend .\objects\lauxlib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\errno.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\Inc\malloc.h)(0x5ABCC8AA)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5AAF9B0D)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (..\Inc\stm32f10x_conf.h)(0x4D99A422)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x5AAF6CF6)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+F (..\LuaSrc\lbaselib.c)(0x57CDC23A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lbaselib.o --omf_browse .\objects\lbaselib.crf --depend .\objects\lbaselib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lbitlib.c)(0x56439219)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lbitlib.o --omf_browse .\objects\lbitlib.crf --depend .\objects\lbitlib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lcode.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lcode.o --omf_browse .\objects\lcode.crf --depend .\objects\lcode.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lcode.h)(0x568BEDCD)
+I (..\LuaSrc\llex.h)(0x57275DE4)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\lparser.h)(0x56841F6D)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\lcorolib.c)(0x570BF8DB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lcorolib.o --omf_browse .\objects\lcorolib.crf --depend .\objects\lcorolib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lctype.c)(0x545683A8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lctype.o --omf_browse .\objects\lctype.crf --depend .\objects\lctype.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (..\LuaSrc\lctype.h)(0x4E203795)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+F (..\LuaSrc\ldblib.c)(0x5652F8A7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ldblib.o --omf_browse .\objects\ldblib.crf --depend .\objects\ldblib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\ldebug.c)(0x580767CA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ldebug.o --omf_browse .\objects\ldebug.crf --depend .\objects\ldebug.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lapi.h)(0x54FA04DE)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\lcode.h)(0x568BEDCD)
+I (..\LuaSrc\llex.h)(0x57275DE4)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\lparser.h)(0x56841F6D)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\ldo.c)(0x58501935)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ldo.o --omf_browse .\objects\ldo.crf --depend .\objects\ldo.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\setjmp.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lapi.h)(0x54FA04DE)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\lparser.h)(0x56841F6D)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lundump.h)(0x55EF0191)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\ldump.c)(0x5616918D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ldump.o --omf_browse .\objects\ldump.crf --depend .\objects\ldump.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\lundump.h)(0x55EF0191)
+F (..\LuaSrc\lfunc.c)(0x545683A8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lfunc.o --omf_browse .\objects\lfunc.crf --depend .\objects\lfunc.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+F (..\LuaSrc\lgc.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lgc.o --omf_browse .\objects\lgc.crf --depend .\objects\lgc.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+F (..\LuaSrc\linit.c)(0x584479D4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\linit.o --omf_browse .\objects\linit.crf --depend .\objects\linit.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\LuaSrc\liolib.c)(0x58597A4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\liolib.o --omf_browse .\objects\liolib.crf --depend .\objects\liolib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\errno.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\llex.c)(0x57275DE4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\llex.o --omf_browse .\objects\llex.crf --depend .\objects\llex.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lctype.h)(0x4E203795)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\llex.h)(0x57275DE4)
+I (..\LuaSrc\lparser.h)(0x56841F6D)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+F (..\LuaSrc\lmathlib.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lmathlib.o --omf_browse .\objects\lmathlib.crf --depend .\objects\lmathlib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lmem.c)(0x54FA03F2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lmem.o --omf_browse .\objects\lmem.crf --depend .\objects\lmem.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+F (..\LuaSrc\loadlib.c)(0x5877B972)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\loadlib.o --omf_browse .\objects\loadlib.crf --depend .\objects\loadlib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lobject.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lobject.o --omf_browse .\objects\lobject.crf --depend .\objects\lobject.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lctype.h)(0x4E203795)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\lopcodes.c)(0x54AA9631)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lopcodes.o --omf_browse .\objects\lopcodes.crf --depend .\objects\lopcodes.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\LuaSrc\loslib.c)(0x578D18E2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\loslib.o --omf_browse .\objects\loslib.crf --depend .\objects\loslib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\errno.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\time.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lparser.c)(0x579FA83C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lparser.o --omf_browse .\objects\lparser.crf --depend .\objects\lparser.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lcode.h)(0x568BEDCD)
+I (..\LuaSrc\llex.h)(0x57275DE4)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\lparser.h)(0x56841F6D)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+F (..\LuaSrc\lstate.c)(0x5ABCE201)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lstate.o --omf_browse .\objects\lstate.crf --depend .\objects\lstate.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lapi.h)(0x54FA04DE)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\llex.h)(0x57275DE4)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (C:\myapp\MDK5\ARM\ARMCC\include\time.h)(0x5475F300)
+F (..\LuaSrc\lstring.c)(0x5652F963)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lstring.o --omf_browse .\objects\lstring.crf --depend .\objects\lstring.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+F (..\LuaSrc\lstrlib.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lstrlib.o --omf_browse .\objects\lstrlib.crf --depend .\objects\lstrlib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\ltable.c)(0x582075CB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ltable.o --omf_browse .\objects\ltable.crf --depend .\objects\ltable.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\ltablib.c)(0x56CF5902)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ltablib.o --omf_browse .\objects\ltablib.crf --depend .\objects\ltablib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+I (C:\myapp\MDK5\ARM\ARMCC\include\time.h)(0x5475F300)
+F (..\LuaSrc\ltm.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ltm.o --omf_browse .\objects\ltm.crf --depend .\objects\ltm.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\lundump.c)(0x56378ABA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lundump.o --omf_browse .\objects\lundump.crf --depend .\objects\lundump.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lundump.h)(0x55EF0191)
+F (..\LuaSrc\lutf8lib.c)(0x585BD062)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lutf8lib.o --omf_browse .\objects\lutf8lib.crf --depend .\objects\lutf8lib.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\lauxlib.h)(0x5846D127)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\LuaSrc\lualib.h)(0x5877B972)
+F (..\LuaSrc\lvm.c)(0x56B4FF12)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lvm.o --omf_browse .\objects\lvm.crf --depend .\objects\lvm.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\ldebug.h)(0x555F6B54)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+I (..\LuaSrc\ldo.h)(0x5677F856)
+I (..\LuaSrc\lfunc.h)(0x54B53E77)
+I (..\LuaSrc\lgc.h)(0x5677F856)
+I (..\LuaSrc\lopcodes.h)(0x578E5F75)
+I (..\LuaSrc\lstring.h)(0x5638D461)
+I (..\LuaSrc\ltable.h)(0x585BD062)
+I (..\LuaSrc\lvm.h)(0x585BD062)
+F (..\LuaSrc\lzio.c)(0x55EF0191)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I..\Inc -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\CMSIS\CM3\CoreSupport -I..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Drivers -I..\LuaSrc-I C:\myfile\stm32-lua\myprj-3.5.0\Project\RTE-I C:\myapp\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\myapp\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\lzio.o --omf_browse .\objects\lzio.crf --depend .\objects\lzio.d)
+I (..\LuaSrc\lprefix.h)(0x54A18735)
+I (C:\myapp\MDK5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\LuaSrc\lua.h)(0x585BF678)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\LuaSrc\luaconf.h)(0x5ABCA55C)
+I (C:\myapp\MDK5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\myapp\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\LuaSrc\llimits.h)(0x564E2006)
+I (..\LuaSrc\lmem.h)(0x54945FB6)
+I (..\LuaSrc\lstate.h)(0x585BD062)
+I (..\LuaSrc\lobject.h)(0x579FA83C)
+I (..\LuaSrc\ltm.h)(0x56D0A56F)
+I (..\LuaSrc\lzio.h)(0x55EF0191)
+I (C:\myapp\MDK5\ARM\ARMCC\include\signal.h)(0x5475F2EE)
+F (..\LuaSrc\lapi.h)(0x54FA04DE)()
+F (..\LuaSrc\lauxlib.h)(0x5846D127)()
+F (..\LuaSrc\lcode.h)(0x568BEDCD)()
+F (..\LuaSrc\lctype.h)(0x4E203795)()
+F (..\LuaSrc\ldebug.h)(0x555F6B54)()
+F (..\LuaSrc\ldo.h)(0x5677F856)()
+F (..\LuaSrc\lfunc.h)(0x54B53E77)()
+F (..\LuaSrc\lgc.h)(0x5677F856)()
+F (..\LuaSrc\llex.h)(0x57275DE4)()
+F (..\LuaSrc\llimits.h)(0x564E2006)()
+F (..\LuaSrc\lmem.h)(0x54945FB6)()
+F (..\LuaSrc\lobject.h)(0x579FA83C)()
+F (..\LuaSrc\lopcodes.h)(0x578E5F75)()
+F (..\LuaSrc\lparser.h)(0x56841F6D)()
+F (..\LuaSrc\lprefix.h)(0x54A18735)()
+F (..\LuaSrc\lstate.h)(0x585BD062)()
+F (..\LuaSrc\lstring.h)(0x5638D461)()
+F (..\LuaSrc\ltable.h)(0x585BD062)()
+F (..\LuaSrc\ltm.h)(0x56D0A56F)()
+F (..\LuaSrc\lua.h)(0x585BF678)()
+F (..\LuaSrc\luaconf.h)(0x5ABCA55C)()
+F (..\LuaSrc\lualib.h)(0x5877B972)()
+F (..\LuaSrc\lundump.h)(0x55EF0191)()
+F (..\LuaSrc\lvm.h)(0x585BD062)()
+F (..\LuaSrc\lzio.h)(0x55EF0191)()

@@ -12,16 +12,16 @@
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
         <TargetCommonOption>
-          <Device>STM32F103CB</Device>
+          <Device>STM32F103ZE</Device>
           <Vendor>STMicroelectronics</Vendor>
           <PackID>Keil.STM32F1xx_DFP.1.1.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
-          <Cpu>IROM(0x08000000,0x20000) IRAM(0x20000000,0x5000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
+          <Cpu>IROM(0x08000000,0x80000) IRAM(0x20000000,0x10000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
-          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000 -FP0($$Device:STM32F103CB$Flash\STM32F10x_128.FLM))</FlashDriverDll>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000 -FP0($$Device:STM32F103ZE$Flash\STM32F10x_512.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
-          <RegisterFile>$$Device:STM32F103CB$Device\Include\stm32f10x.h</RegisterFile>
+          <RegisterFile>$$Device:STM32F103ZE$Device\Include\stm32f10x.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -31,7 +31,7 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>$$Device:STM32F103CB$SVD\STM32F103xx.svd</SFDFile>
+          <SFDFile>$$Device:STM32F103ZE$SVD\STM32F103xx.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -224,7 +224,7 @@
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <RoSelD>3</RoSelD>
@@ -280,12 +280,12 @@
               <IRAM>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
-                <Size>0x5000</Size>
+                <Size>0x10000</Size>
               </IRAM>
               <IROM>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
-                <Size>0x20000</Size>
+                <Size>0x80000</Size>
               </IROM>
               <XRAM>
                 <Type>0</Type>
@@ -310,7 +310,7 @@
               <OCR_RVCT4>
                 <Type>1</Type>
                 <StartAddress>0x8000000</StartAddress>
-                <Size>0x20000</Size>
+                <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
                 <Type>1</Type>
@@ -335,7 +335,7 @@
               <OCR_RVCT9>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
-                <Size>0x5000</Size>
+                <Size>0x10000</Size>
               </OCR_RVCT9>
               <OCR_RVCT10>
                 <Type>0</Type>
@@ -363,7 +363,7 @@
             <useXO>0</useXO>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_STDPERIPH_DRIVER</Define>
+              <Define>USE_STDPERIPH_DRIVER,STM32F10X_HD</Define>
               <Undefine></Undefine>
               <IncludePath>..\Inc;..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\Libraries\CMSIS\CM3\CoreSupport;..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\Drivers;..\LuaSrc</IncludePath>
             </VariousControls>
@@ -409,9 +409,9 @@
           <GroupName>startup</GroupName>
           <Files>
             <File>
-              <FileName>startup_stm32f10x_md.s</FileName>
+              <FileName>startup_stm32f10x_hd.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s</FilePath>
+              <FilePath>..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -453,6 +453,11 @@
               <FileType>1</FileType>
               <FilePath>..\Src\lcddemo.c</FilePath>
             </File>
+            <File>
+              <FileName>malloc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\malloc.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -492,6 +497,11 @@
               <FileName>lcddemo.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Inc\lcddemo.h</FilePath>
+            </File>
+            <File>
+              <FileName>malloc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Inc\malloc.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -942,6 +952,136 @@
               <FileName>lzio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LuaSrc\lzio.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>luainc</GroupName>
+          <Files>
+            <File>
+              <FileName>lapi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lapi.h</FilePath>
+            </File>
+            <File>
+              <FileName>lauxlib.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lauxlib.h</FilePath>
+            </File>
+            <File>
+              <FileName>lcode.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lcode.h</FilePath>
+            </File>
+            <File>
+              <FileName>lctype.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lctype.h</FilePath>
+            </File>
+            <File>
+              <FileName>ldebug.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\ldebug.h</FilePath>
+            </File>
+            <File>
+              <FileName>ldo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\ldo.h</FilePath>
+            </File>
+            <File>
+              <FileName>lfunc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lfunc.h</FilePath>
+            </File>
+            <File>
+              <FileName>lgc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lgc.h</FilePath>
+            </File>
+            <File>
+              <FileName>llex.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\llex.h</FilePath>
+            </File>
+            <File>
+              <FileName>llimits.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\llimits.h</FilePath>
+            </File>
+            <File>
+              <FileName>lmem.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lmem.h</FilePath>
+            </File>
+            <File>
+              <FileName>lobject.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lobject.h</FilePath>
+            </File>
+            <File>
+              <FileName>lopcodes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lopcodes.h</FilePath>
+            </File>
+            <File>
+              <FileName>lparser.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lparser.h</FilePath>
+            </File>
+            <File>
+              <FileName>lprefix.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lprefix.h</FilePath>
+            </File>
+            <File>
+              <FileName>lstate.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lstate.h</FilePath>
+            </File>
+            <File>
+              <FileName>lstring.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lstring.h</FilePath>
+            </File>
+            <File>
+              <FileName>ltable.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\ltable.h</FilePath>
+            </File>
+            <File>
+              <FileName>ltm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\ltm.h</FilePath>
+            </File>
+            <File>
+              <FileName>lua.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lua.h</FilePath>
+            </File>
+            <File>
+              <FileName>luaconf.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\luaconf.h</FilePath>
+            </File>
+            <File>
+              <FileName>lualib.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lualib.h</FilePath>
+            </File>
+            <File>
+              <FileName>lundump.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lundump.h</FilePath>
+            </File>
+            <File>
+              <FileName>lvm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lvm.h</FilePath>
+            </File>
+            <File>
+              <FileName>lzio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LuaSrc\lzio.h</FilePath>
             </File>
           </Files>
         </Group>

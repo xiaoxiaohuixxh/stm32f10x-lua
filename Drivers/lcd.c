@@ -182,11 +182,11 @@ int LcdInit()
 
 void LcdGpioInit()
 {
+	GPIO_InitTypeDef GPIO_InitStruct;
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);//使能GPIOB时钟
 	//因为GPIOB8,9是复用端口，所以要关闭复用功能。
 	GPIO_PinRemapConfig(GPIO_Remap_TIM4,DISABLE);//关闭TIM4的复用管道占用
 	//初始化GPIOB9(LCD_CS)
-	GPIO_InitTypeDef GPIO_InitStruct;
 	GPIO_InitStruct.GPIO_Pin=GPIO_Pin_9;
 	GPIO_InitStruct.GPIO_Speed=GPIO_Speed_50MHz;
 	GPIO_InitStruct.GPIO_Mode=GPIO_Mode_Out_PP;//推挽输出
